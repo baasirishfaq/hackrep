@@ -5,6 +5,7 @@ from flask import Flask, jsonify, request
 import google.generativeai as genai
 from PIL import Image
 
+
 # Set up your API key
 API_KEY = "PUT YOUR API HERE"
 genai.configure(api_key=API_KEY)
